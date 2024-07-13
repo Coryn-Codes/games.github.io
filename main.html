@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="tic.css">
+  <script src="tic.js"></script>
+<head>
+<title>Some games or somehting</title>
+<link rel="icon" type="image/x-icon" href="icon.jpg">
+</head>
+<body onload = "setup();">
+
+<h1 id = "headingid">This is a HEADING!</h1>
+<p class = "announcement" id = "announcementid">My first paragraph.</p>
+
+<br>
+<div class = "ui">
+    <div class = "row">
+        <input type = "text"  id = "b00"  class = "cell"  onclick = "buttonClick(0,0);" readonly>
+        
+        <input type = "text"  id = "b01"  class = "cell"  onclick = "buttonClick(0,1);" readonly>
+        
+        <input type = "text"  id = "b02"  class = "cell"  onclick = "buttonClick(0,2);" readonly>
+        
+    </div>
+    <div class = "row">
+        <input type = "text"  id = "b10"  class = "cell"  onclick = "buttonClick(1,0);" readonly>
+        
+        <input type = "text"  id = "b11"  class = "cell"  onclick = "buttonClick(1,1);" readonly>
+        
+        <input type = "text"  id = "b12"  class = "cell"  onclick = "buttonClick(1,2);" readonly>
+        
+    </div>
+    <div class = "row">
+        <input type = "text"  id = "b20"  class = "cell"  onclick = "buttonClick(2,0);" readonly>
+        
+        <input type = "text"  id = "b21"  class = "cell"  onclick = "buttonClick(2,1);" readonly>
+        
+        <input type = "text"  id = "b22"  class = "cell"  onclick = "buttonClick(2,2);" readonly>
+        
+    </div>
+    <br>
+    <input type = "button" id = "resetButton"  onclick = "setup();" value = "RESET">
+    <input type = "button" id = "testButton"  onclick = "testFill();" value = "test">
+    <input type = "button" id = "testButton2"  onclick = "disableCells();" value = "disable all cells">
+    
+</div>
+</body>
+</html>

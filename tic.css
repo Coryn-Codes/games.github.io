@@ -1,0 +1,78 @@
+
+
+html, body{
+    height: 100%;
+    /*position: relative;
+    top: 0%;
+    bottom: 100%;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(90,121,223);
+    background: linear-gradient(0deg, rgba(90,121,223,1) 0%, rgba(197,250,255,1) 100%);
+    white-space: pre-line
+}
+head{
+    text-align: center;
+}
+
+body {
+    padding: 10%;
+    margin: 10;
+
+
+
+}
+
+.ui{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+}
+
+.cell{
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+
+.cell:hover { 
+    outline: none;
+    border: 2px solid red;
+} 
+
+.announcement{
+    padding: 10px;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border: 3px solid black;
+}
+
+#resetButton{
+    box-sizing: border-box; 
+    margin: 5%;
+    width: 100px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+}
